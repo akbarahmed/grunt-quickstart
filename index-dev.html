@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kreamer - Grunt Quick Start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample HTML file based on Twitter Bootstrap">
+    <meta name="author" content="Akbar S. Ahmed">
+
+    <link href="css/libs/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="css/libs/bootstrap/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/app/app.css" rel="stylesheet">
+    <style>body {padding-top: 60px;}</style>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Kreamer - Grunt Quick Start</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Kreamer - Grunt Quick Start</h1>
+      <p>This is a simple HTML document that is based on Twitter Bootstrap. This 
+         file loads each of the CSS and JavaScript development files.</p>
+      <p>The production version of this HTML is located 
+         <a href="index-prod.html">index-prod.html</a>, which loads the minified
+         versions of the CSS and JavaScript files. In a production 
+         environment there would be only one HTML file with the application server 
+         dynamically switching between the non-minified development files and 
+         the minified production files based on the environment.</p>
+      <p id="js-one-message"></p>
+	  <p id="js-two-message"></p>
+    </div>
+    
+	
+	<!--  JavaScript Libraries -->
+    <script src="js/libs/jquery/jquery-1.9.1.js"></script>
+    <script src="js/libs/bootstrap/bootstrap-transition.js"></script>
+    <script src="js/libs/bootstrap/bootstrap-alert.js"></script>
+    <!-- Our JavaScript App (which are really just 2 separate junk files) -->
+	<script src="js/app/file-one.js"></script>
+	<script src="js/app/file-two.js"></script>
+  </body>
+</html>

@@ -9,4 +9,7 @@ the most common tasks, including:
 - Concatentate and minify CSS
 
 The templates in this repo along with the associated quick start guiedes on 
-https://www.kreamer.io will help you get started with Grunt quickly and easily.
+http://www.kreamer.io will help you get started with Grunt quickly and easily.
+
+Related Quick Starts
+- 

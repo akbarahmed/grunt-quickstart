@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kreamer - Grunt Quick Start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample HTML file based on Twitter Bootstrap">
+    <meta name="author" content="Akbar S. Ahmed">
+
+    <link href="css/min/app.min.css" rel="stylesheet">
+    <style>body {padding-top: 60px;}</style>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Kreamer - Grunt Quick Start</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Kreamer - Grunt Quick Start</h1>
+      <p>This is a simple HTML document that is based on Twitter Bootstrap. This 
+         file loads each of the CSS and JavaScript production files.</p>
+      <p>The development version of this HTML is located 
+         <a href="index-dev.html">index-dev.html</a>, which loads the unminified
+         versions of the CSS and JavaScript files. In a production 
+         environment there would be only one HTML file with the application server 
+         dynamically switching between the non-minified development files and 
+         the minified production files based on the environment.</p>
+      <p id="js-one-message"></p>
+	  <p id="js-two-message"></p>
+    </div>
+    
+	
+	<!--  JavaScript Libraries -->
+	<!-- Load JQuery from Google's CDN. If that fails, then load our local copy. -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/min/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/min/libs.min.js"></script>
+    <!-- Our JavaScript App (which are really just 2 separate junk files) -->
+	<script src="js/min/grunt-quickstart.min.js"></script>
+  </body>
+</html>
