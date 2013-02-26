@@ -1,0 +1,67 @@
+# Standardized Line Endings
+# =========================
+
+# Set default behaviour, in case users don't have core.autocrlf set. In our case
+# want to always use the Linux lf so that our files are consistent across platforms.
+* text=lf
+
+# Play Development
+# ----------------
+*.java text eol=lf
+*.scala text eol=lf
+*.conf text eol=lf
+*.plugins text eol=lf
+routes text eol=lf
+*.sbt text eol=lf
+README text eol=lf
+
+# Documentation related files
+# ---------------------------
+*.md text eol=lf
+*.txt text eol=lf
+
+# Web Development
+# ---------------
+*.html text eol=lf
+*.htm text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.less text eol=lf
+*.json text eol=lf
+
+# Database Development
+# --------------------
+*.sql text eol=lf
+
+# Git files
+# ---------
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Binary files that must not be modified
+# --------------------------------------
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Visual Studio
+# -------------
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.dbproj merge=union
+
+# Standard to msysgit
+# -------------------
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
